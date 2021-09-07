@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+*{
+    width: 100%;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#navbar-heading{
+    padding: 0px 10px 0px 10px;
+    color: cornflowerblue;
+}
+#navbarNav{
+    flex-direction: row-reverse;
+}
+#navbarNav li{
+    padding-right: 5px;
+    font-size: 17px;
+}
+
+#home{
+    margin-top: 60px;
+    width: 100%;
+}
+
+#homeContent{
+    /* text-align: center; */
+    display: block;
+    float: left;
+    width: 50%;
+    margin-top: 60px;
+    padding: 50px 0px 0px 0px;
+
+}
+#homeContent div{
+    margin: 0 auto;
+}
+#homeContent .heading{
+    font-size: 2em;
+    font-weight: 500;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5); 
+}
+
+#homeContent .heading span{
+    font-size: 2.8em;
+    font-weight: 600;
+    text-shadow: 0 3px 8px rgba(0,0,0,.4); 
+}
+
+
+
+.header-area h2{
+    top: 50%;
+    left: 15%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    text-shadow: 0 2px 5px rgba(0,0,0,.5); 
+
+}
+
+.header-area h2 span{
+    color: #2563EB;
+}
+
+
+
+#homeImage{
+    display: block;
+    float: right;
+    margin-top: 100px;
+    padding: 0;
+    width: 50%;
+    
+}
+
+#aboutMe{
+    margin-top: 60px;
+    color: black;
+    background-color: #F3F4F6;
+    width: 100%;
+    padding: 50px;
+}
+
+.heading{
+    padding: 10px;
+    margin: 0;
+    font-size: 3em;
+    text-shadow: 0 2px 5px rgba(0, 0, 255, 0.5);
+}
+#aboutMeImage{
+    display: block;
+    float: left;
+    width: 40%;
+}
+#aboutMeContent{
+    display: block;
+    width: 60%;
+    font-size: 1.5em;
+    float: right;
+    padding: 50px 0px 0px 0px;
+}
+
+#education{
+    color: black;
+    width: 100%;
+    margin-top: 60px;
+    width: 100%;
+    padding: 50px;
+}
+/* Education */
+.educationContent{
+    padding: 50px 0px 0px 0px;
+}
+#educationContent1 {
+    position: relative;
+    display: block;
+    width: 32%;
+    font-size: 1.5em;
+    padding: 50px 0px 0px 0px;
+ }
+#educationImage{
+    display: block;
+    width: 32%;
+    margin: 0 auto;
+}
+#educationContent2{
+    position: relative;
+    display: block;
+    font-size: 1.5em;
+    text-align: right;
+    width: 32%;
+    padding: 50px 0px 0px 0px;
+}
+
+/* Skills */
+#skills{
+    margin-top: 60px;
+    color: black;
+    background-color: #F3F4F6;
+    width: 100%;
+    padding: 50px;
+}
+
+/* Projects */
+#projects{
+    color: black;
+    background-color: salmon;
+}
