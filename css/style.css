@@ -160,7 +160,7 @@ body{
     display: block;
     width: 30%;
 }
-.red{
+.advance{
     display: inline-block;
     width: 15px;
     height: 15px;
@@ -168,7 +168,7 @@ body{
     margin: 0px 10px 0px 10px;
     background-color: #1E3A8A;
 }
-.yellow{
+.intermediate{
     display: inline-block;
     width: 15px;
     height: 15px;
@@ -176,7 +176,7 @@ body{
     margin: 0px 10px 0px 10px;
     background-color: #2563EB;
 }
-.green{
+.beginner{
     display: inline-block;
     width: 15px;
     height: 15px;
