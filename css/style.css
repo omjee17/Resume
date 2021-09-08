@@ -283,22 +283,77 @@ body{
 .card-button{
     display: flex;
     flex-wrap: nowrap;
-    height: 40px;
-    
+    height: 50px;
 }
 .card-button .sourceCode{
     display: block;
     width: 50%;
-    /* background: coral; */
-    border-radius: 10px;
+    border: 0px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 1em;
+    font-weight: 700;
+    color: #F3F4F6;
+    background: #2563EB;
+    box-shadow: 1px 5px 5px rgba(10,10,255,0.5);
 }
 .card-button .gotoApp{
     display: block;
     width: 50%;
-    /* background: coral; */
-    border-radius: 10px;
+    border: 0px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 1em;
+    font-weight: 700;
+    color: #F3F4F6;
+    background: #2563EB;
+    box-shadow: 5px 5px 5px rgba(10,10,255,0.5);
 }
 
+/* Contact */
+#contact{
+    margin-top: 60px;
+    color: #F3F4F6;
+    width: 100%;
+    padding: 50px;
+    padding-top: 100px;
+    background: #2563EB;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.8);
+}
+.contactContent{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.contactContent .column{
+    padding: 20px;
+    margin: 20px;
+}
+.message{
+    padding: 20px;
+    margin: 20px;
+}
+.message textarea{
+    border-radius: 5px;
+    border:0px;
+    background-color: #E7E5E4;
+    
+}
+.column ul{
+    padding: 0px;
+    margin: 0px;
+}
+.column ul li a{
+    text-decoration: none;
+    color: #F3F4F6;
+    font-size: 1.3em;
+}
+#hr{
+    height: 3px;
+}
+
+
+/* misc */
 .quotes{
     width: 100%;
     font-size: 1.5em;
