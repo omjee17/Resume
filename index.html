@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!-- CSS only -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
     <script async defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    
     <script async defer src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <!-- <script async defer src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> -->
     <script async defer src="./js/script.js"></script>
@@ -17,35 +20,43 @@
 <body>
     
     <!-- Header -->
+
+
+    
     <div class="header">
         <nav class="navbar fixed-top navbar-expand-lg navbar-default bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#" id="navbar-heading"><h1>Portfolio</h1></a>
+              <a class="navbar-brand" href="#" id="navbar-heading"><h1> <img src="./images/IMG_20210908_212313.png"
+                 style="height: 60px;width: 60px; border-radius: 35px;"> Portfolio</h1></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item"> 
-                    <a class="nav-link active" aria-current="page" href="#aboutMe">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#education">Education</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
+                    <a class="nav-link" aria-current="page" href="#aboutMe">About</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#projects">Projects</a>
                   </li>
                   <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Omjee_resume.pdf" download>Resume</a>
                   </li>
                 </ul>
                 
               </div>
             </div>
           </nav>
+          
     </div>
 
     <!-- Home -->
@@ -68,7 +79,7 @@
         </div>
 
     </section>
-
+    
     <!-- About Me -->
     <section class="aboutMe" id="aboutMe">
       <div class="row text-center">
@@ -133,8 +144,15 @@
               </div>
               <div class="face face2">
                 <div class="content">
-                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                   Voluptate quod, itaque harum natus culpa accusantium. 
+                  <p> 
+                    <ul>
+                      <li> Built a full-stack web app that allows users to shop
+                    products from three categories i.e smartphones,
+                    laptops, and fashion.</li>
+
+                    <li>Created REST APIs for CRUD operations.</li>
+                    <li>Features Provided: Wishlist, Add to cart, and Checkout.</li>
+                  </ul>
                    </p>
                    <div class="card-button">
                     <button class="sourceCode">Source Code</button>
@@ -266,10 +284,10 @@
             <div class="column">
               <h4>Coding Platform Profiles</h4>
               <ul class="codingPlatform" style="list-style-type:none;">
-              <li><a href=""> LeetCode</a></li>
-              <li><a href=""> Hackerrank</a></li>
-              <li><a href=""> CodeChef</a></li>
-              <li><a href=""> GeeksForGeeks</a></li>
+              <li><a href="https://leetcode.com/omi17/" target="_blank"><img src="./images/LeetCode.png" style="height: 35px;width: 35px;"> LeetCode</a></li>
+              <li><a href="https://www.hackerrank.com/Omjee?hr_r=1" target="_blank"><img src="./images/HackerRank.png" style="height: 35px;width: 35px;"> Hackerrank</a></li>
+              <li><a href="https://www.codechef.com/users/omi_17" target="_blank"><img src="./images/Codechef.jpg" style="height: 35px;width: 35px; border-radius: 14px;"> CodeChef</a></li>
+              <li><a href="https://auth.geeksforgeeks.org/user/singhomjee123/practice/" target="_blank"><img src="./images/gfg.png" style="height: 35px;width: 35px;border-radius: 15px;"> GeeksForGeeks</a></li>
               </ul>
              
             </div>
@@ -277,10 +295,9 @@
             <div class="column">
               <h4>Socials</h4>
               <ul class="socials" style="list-style-type:none;">
-                <li><a href=""> LinkedIn</a></li>
-                <li><a href=""> Github</a></li>
-                <li><a href=""> Gmail</a></li>
-                <li><a href=""> Facebook</a></li>
+                <li><a href="https://www.linkedin.com/in/omi17/" target="_blank"> <img src="./images/Linkedin.png" style="height: 35px;width: 35px;"> LinkedIn</a></li>
+                <li><a href="https://github.com/omjee17" target="_blank"> <img src="./images/GitHub.png" style="height:33px;width: 33px; border-radius: 15px;"> Github</a></li>
+                <li><a href="mailto:singhomjee123@gmail.com" target="_blank"> <img src="./images/Gmail.png" style="height: 25px;width: 30px;"> Gmail</a></li>
                 </ul>
             </div>
 

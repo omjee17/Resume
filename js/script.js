@@ -9,3 +9,5 @@ var typed=new Typed('.animate',{
         backSpeed:50,
         loop:true,
 })
+var btn = $('#button1');
+
