@@ -401,3 +401,235 @@ body{
     text-align: center;
     
 }
+
+
+@media screen and (max-width:1024px){
+
+    body{
+       /* background-color: red; */
+   }
+   
+   #aboutMeContent{
+       width: 60%;
+   }
+   #aboutMeContent .col-10{
+       width: 100%;
+       justify-content: center;
+       padding-left: 20px;
+   }
+   .container{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+   }
+   .container .card{
+       width: 70%;
+       margin-bottom: 50px;
+   }
+   .container .card .face.face1 img{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+    #education{
+        width: 100%;
+    }
+    #education .row .alignCenter{
+        flex-wrap: nowrap;
+        margin: 0;
+    }
+    #educationContent1{
+       width: 30%;
+    }
+    #educationImage{
+        width: 40%;
+        margin: 0;
+    }
+    #educationContent2{
+        width: 30%;
+     }
+}
+
+@media screen and (max-width:900px){
+    body{
+        /* background-color: pink; */
+    }
+    #difficulty{
+        flex-wrap: nowrap;
+    }
+    #skillsContent .row{
+        flex-wrap: nowrap;
+    }
+    #skillsContent .row .level{
+        all: unset;
+        flex-wrap: nowrap;
+    }
+    .contactContent .column{
+        margin: 0;
+    }
+    
+}
+
+@media screen and (max-width:550px){
+    body{
+        /* background: seagreen; */
+    }
+    
+    .home .row .alignCenter{
+        justify-content: center;
+    }
+    #homeContent{
+        width: 100%;
+    }
+    #homeImage{
+        width: 70%;
+        margin: 0 auto;
+    }
+    #aboutMeImage{
+        width: 70%;
+        margin: 0 auto;
+
+    }
+    #aboutMeImage img{
+        height: 100%;
+    }
+    #aboutMeContent{
+        font-size: 1.1em;
+        width: 100%;
+    }
+    .container{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+   }
+   .container .card{
+       width: 90%;
+       margin-bottom: 50px;
+   }
+   .container .card .face.face1 img{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    #skillsContent{
+        width: 100%;
+    }
+    #skillsImage{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #skillsImage img{
+        width: 100%;
+        height: 100%;
+    }
+    #education{
+        width: 100%;
+    }
+    #education .row .alignCenter{
+        flex-wrap: nowrap;
+        margin: 0;
+    }
+    #education h2{
+        font-size: 1.1em;
+    }
+    #education h4{
+        font-size: 0.8em;
+    }
+    #education ul li{
+        font-size: 0.7em;
+    }
+    #educationContent1{
+        text-align: center;
+        width: 100%;
+        margin: 10px;
+        padding:0;
+
+    }
+    #educationImage{
+        margin: 0 auto;
+        width: 90%;
+
+    }
+    #educationImage img{
+        height: 70%;
+    }
+    #educationContent2{
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding:0;
+     }
+     .contactContent{
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    #bottomFooter p{
+        font-size: 0.9em;
+    }
+    .heading{
+        font-size: 2.2em;
+    }
+    .headingspan{
+        font-size:1em;
+    }
+    .header-area h2{
+        font-size: 1.7em;
+    }
+    .quotes{
+        font-size: 1.2em;
+    }
+    
+}
+
+
+@media screen and (max-width:400px) {
+    body{
+        /* background: chartreuse; */
+    }
+    #homeImage{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+    #projects{
+        width: 100%;
+        padding:0;
+    }
+    #projects  .alignCenter {
+        display: block;
+        width: 90%;
+    }
+    .container{
+        display: block;
+        flex-wrap: wrap;
+        width: 90%;
+        justify-content: center;
+   }
+   .container .card{
+       width: 290px;
+       height: 300px;
+       margin-bottom: 50px;
+       font-size: 1em;
+   }
+   .container .card .face.face1 img{
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+    #skillsContent{
+        width: 100%;
+    }
+    #skillsImage{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #skillsImage img{
+        width: 100%;
+        height: 100%;
+    }
+}
