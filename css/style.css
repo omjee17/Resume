@@ -602,7 +602,7 @@ body{
     #aboutMe{
         margin: 0;
         padding: 0;
-        margin-left: 5px;
+        margin-left: 9px;
     }
     #projects{
         width: 100%;
@@ -637,7 +637,7 @@ body{
     #skills{
         padding: 0px;
         margin: 0px;
-        margin-left: 5px;
+        margin-left: 9px;
     }
     #skillsContent{
         width: 100%;
@@ -660,6 +660,6 @@ body{
     #contact{
         padding-left: 0px;
         padding-right: 0;
-        margin-left: 5px;
+        margin-left: 9px;
     }
 }
