@@ -298,6 +298,10 @@ body{
     flex-wrap: nowrap;
     height: 50px;
 }
+.card-button a{
+    text-decoration: none;
+    color: white;
+}
 .card-button .sourceCode{
     display: block;
     width: 50%;
@@ -405,9 +409,9 @@ body{
 
 @media screen and (max-width:1024px){
 
-    body{
-       /* background-color: red; */
-   }
+    /* body{
+       background-color: red;
+   } */
    
    #aboutMeContent{
        width: 60%;
@@ -451,9 +455,9 @@ body{
 }
 
 @media screen and (max-width:900px){
-    body{
-        /* background-color: pink; */
-    }
+    /* body{
+        background-color: pink;
+    } */
     #difficulty{
         flex-wrap: nowrap;
     }
@@ -471,9 +475,9 @@ body{
 }
 
 @media screen and (max-width:550px){
-    body{
-        /* background: seagreen; */
-    }
+    /* body{
+        background: seagreen;
+    } */
     
     .home .row .alignCenter{
         justify-content: center;
@@ -587,9 +591,9 @@ body{
 
 
 @media screen and (max-width:400px) {
-    body{
-        /* background: chartreuse; */
-    }
+     /* body{
+        background: chartreuse;
+    }  */
     #homeImage{
         display: block;
         width: 90%;
