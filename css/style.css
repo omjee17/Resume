@@ -596,6 +596,14 @@ body{
      /* body{
         background: chartreuse;
     }  */
+    html,body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
     #homeImage{
         display: block;
         width: 90%;
@@ -606,18 +614,26 @@ body{
         margin: 0;
     }
     #projects  .alignCenter {
-        display: block;
-        width: 90%;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
+    #projectsContent{
+        padding: 0;
     }
     .container{
         display: block;
         flex-wrap: wrap;
-        width: 90%;
+        width: 100%;
+        padding: 0;
         justify-content: center;
-   }
+    }
    .container .card{
        width: 290px;
        height: 300px;
+       margin: 0 auto;
        margin-bottom: 50px;
        font-size: 1em;
    }
@@ -640,6 +656,13 @@ body{
         display: inline-block;
         width: 80%;
     }
+    #skills .alignCenter {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
 
     #skillsImage{
         flex-wrap: nowrap;
@@ -651,5 +674,23 @@ body{
         height: 100%;
         justify-content: center;
     }
-   
+    #education  .alignCenter {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
+    #educationContent1{
+        margin:  0 auto;
+    }
+    #educationContent2{
+        margin:  0 auto;
+    }
+    .text-center{
+        margin: 0 auto;
+    }
+    .quotes{
+        margin: 0 auto;
+    }
 }
