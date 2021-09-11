@@ -2,7 +2,7 @@ var typed=new Typed('.animate',{
     strings:[
         "Web Developer.",
         "Competitive Programmer.",
-        "Computer Science Graduate.",
+        "Computer Science Student.",
         "Proud Indian.",
         ],
         typeSpeed:50,
