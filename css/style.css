@@ -599,9 +599,15 @@ body{
         width: 90%;
         margin: 0 auto;
     }
+    #aboutMe{
+        margin: 0;
+        padding: 0;
+        margin-left: 5px;
+    }
     #projects{
         width: 100%;
         padding:0;
+        margin: 0;
     }
     #projects  .alignCenter {
         display: block;
@@ -624,16 +630,36 @@ body{
         width: 60%;
         margin: 0 auto;
     }
+    #education{
+        padding: 0;
+        margin: 0;
+    }
+    #skills{
+        padding: 0px;
+        margin: 0px;
+        margin-left: 5px;
+    }
     #skillsContent{
         width: 100%;
     }
-    #skillsImage{
+    #difficulty{
         width: 100%;
-        margin: 0;
+        margin: 0 auto;
+    }
+    
+    #skillsImage{
+        flex-wrap: nowrap;
         padding: 0;
+        
     }
     #skillsImage img{
         width: 100%;
         height: 100%;
+        justify-content: center;
+    }
+    #contact{
+        padding-left: 0px;
+        padding-right: 0;
+        margin-left: 5px;
     }
 }
