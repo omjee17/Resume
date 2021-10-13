@@ -408,12 +408,21 @@ body{
     
 }
 
+#sendMessage{
+    width: 98%;
+    border: 0px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 1em;
+    font-weight: 700;
+    color: #2563EB;
+    background: #F3F4F6;
+    box-shadow: 1px 5px 5px rgba(10,10,255,0.5);
+}
 
 @media screen and (max-width:1024px){
 
-    /* body{
-       background-color: red;
-   } */
+    
    
    #aboutMeContent{
        width: 60%;
@@ -457,9 +466,7 @@ body{
 }
 
 @media screen and (max-width:900px){
-    /* body{
-        background-color: pink;
-    } */
+    
     #difficulty{
         flex-wrap: nowrap;
     }
@@ -477,9 +484,6 @@ body{
 }
 
 @media screen and (max-width:550px){
-    /* body{
-        background: seagreen;
-    } */
     
     .home .row .alignCenter{
         justify-content: center;
@@ -593,9 +597,7 @@ body{
 
 
 @media screen and (max-width:400px) {
-     /* body{
-        background: chartreuse;
-    }  */
+     
     html,body
     {
         width: 100%;
