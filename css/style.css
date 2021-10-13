@@ -411,12 +411,14 @@ body{
 #sendMessage{
     width: 98%;
     border: 0px;
+    padding: 3px;
     border-radius: 20px;
     margin: 5px;
     font-size: 1em;
     font-weight: 700;
     color: #2563EB;
-    background: #F3F4F6;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    background: #E7E5E4;
     box-shadow: 1px 5px 5px rgba(10,10,255,0.5);
 }
 
